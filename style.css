@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+ 
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    
+    align-items: center;
+    min-height: 100vh;
+    
+    
+}
+body video{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    
+    object-fit: fill;
+}
+
+.container{
+    border: 1px solid #ffffff;
+    min-height: 45vh;
+    width: 40vh;
+    padding: 2rem;  
+    position: relative;
+    z-index: 1;
+}
+.container h2{
+    text-align: center;
+    font-size: 1.75rem;
+    color: aqua;
+}
+form{
+    margin: 2rem 0rem 1rem 0rem;
+}
+form input, button{
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 0.75rem;
+     background-color: rgba(27, 27, 27, 1.5);;
+    ;
+    /* height: 3rem; */
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.40rem;
+    font-weight: 500;
+    font-family: ui-monospace;
+}
+form input{
+    padding-left: 5px;
+    height: 3rem;
+}
+
+form select{
+    border-radius: 0.75rem;
+    background-color: grey;
+    cursor: pointer;
+    background-color: rgba(27, 27, 27, 0.9);
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: ui-monospace;
+    width: auto;
+    margin-left: 4px;
+    border: none;
+    outline: none;
+    
+}
+form button{
+    color: #1d1d1d;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+select option{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family:ui-monospace;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container img{
+    max-width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+border: 1px solid #d3d3d3;
+border-radius: 0.75rem;
+width: 6rem;
+padding: 0 1rem;
+}
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+    font-size: 1.25rem;
+
+}
+button{
+font-size: 1.25rem;
+padding: 0.75rem;
+background-color: aqua;
+}
+
+form p{
+    font-size: 1.6rem;
+}
+form p:first-child{
+    margin-bottom: 0.75rem;
+}
+
+
+    
