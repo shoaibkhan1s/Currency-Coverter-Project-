@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
 body {
     margin: 0;
@@ -131,14 +131,5 @@ form p:first-child{
     margin-bottom: 0.75rem;
 }
 
-@media screen and (max-width:600px){
-    .container{
-        height: 20vh;
-        max-width: 85vw;
-        margin: auto;
-        padding: 20px;
 
-    }
-    .select-container{
-        padding: 0 4rem;
-    }
+
